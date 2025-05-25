@@ -66,7 +66,7 @@ just_trade_labels = {
 }
 
 # Streamlit UI
-st.title("Wealth Allocation Pie Chart")
+st.title("Bajaj Wealth Allocation")
 
 age_group = st.selectbox("Select Age Group", list(allocation_data.keys()))
 risk_appetite = st.selectbox("Select Risk Appetite", list(allocation_data[age_group].keys()))
